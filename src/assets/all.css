@@ -1,0 +1,32 @@
+html,body,#app{
+    height: 100%;
+    margin: 0;
+}
+.el-radio, .el-radio__input{
+    white-space:pre-wrap !important;
+}
+
+.el-radio,
+.el-radio__input {
+    white-space: pre-wrap !important;
+}
+
+.upload-demo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.el-upload-dragger {
+    width: 280px!important;
+}
+/* .el-cascader{
+    width: 100%;
+  } */
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
